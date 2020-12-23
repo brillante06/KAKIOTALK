@@ -38,6 +38,7 @@ const GoogleSignin: React.FC = () => {
     }))
   }
   const responseFail = (err: Error) => {
+    console.log(err)
     dispatch(AlertAction.error(err.message))
   }
   const responseAutoLoad = (success: boolean) => {

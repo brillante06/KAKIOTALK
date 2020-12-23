@@ -11,6 +11,7 @@ import * as httpError from '../common/error'
 const isAuthenticated = (req: Request, res: Response, next: NextFunction) => {
   try {
     const token = req.cookies[cookieName]
+    console.log(token)
     if (!token) {
       throw httpError.UNAUTHORIZED
     }
