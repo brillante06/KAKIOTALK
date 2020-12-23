@@ -5,7 +5,7 @@ require('dotenv').config()
 
 export const env = process.env.NODE_ENV || 'development'
 
-const whiteList = ['http://localhost:3000', 'https://kakiotalk.now.sh', 'https://kakiotalk.junow.vercel.app']
+const whiteList = ['http://localhost:3000', 'https://kakiotalk.now.sh', 'https://kakiotalk.junow.vercel.app','https://kakiotalk-one.vercel.app']
 export const corsConfig: CorsOptions = {
   origin: whiteList,
   credentials: true,

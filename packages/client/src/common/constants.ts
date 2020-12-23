@@ -12,7 +12,7 @@ export default sizeMap
 
 const SOCKET_URL = process.env.NODE_ENV === 'development' ? 'localhost:3050' : 'https://kakio.site'
 const API_SERVER_URL = process.env.NODE_ENV === 'development' ? 'http://localhost:3050/v1/' : 'https://kakio.site/v1/'
-const LOGIN_URL = process.env.NODE_ENV === 'development' ? 'http://locahost:3000/login' : 'https://kakiotalk.now.sh/login'
+const LOGIN_URL = process.env.NODE_ENV === 'development' ? 'http://locahost:3000/login' : 'https://kakiotalk-one.vercel.app/login'
 
 const NODE_ENV_VAR = process.env.NODE_ENV
 const CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID || ''

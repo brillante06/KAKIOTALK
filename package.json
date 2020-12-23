@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
   }
 }
